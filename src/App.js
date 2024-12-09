@@ -5,6 +5,7 @@ import WithState from './WithState';
 import WithoutState from './WithoutState';
 import './App.css';
 import Footer2 from './Footer2';
+import Calculator from './Calculator';
 
 // Home component
 const Home = () => (
@@ -62,7 +63,8 @@ function App() {
                             <WithState />
                             
                             {/* Component without useState */}
-                            <WithoutState />                                                       
+                            <WithoutState />
+                            <Calculator />
                         </div>
                     } />
                     <Route path="/details" element={<Details />} />
