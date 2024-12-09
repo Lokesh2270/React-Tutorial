@@ -41,7 +41,6 @@ function App() {
                     <Route path="/state-example" element={
                         <div>
                             <Header />
-                            <Footer2 />
                             
                             <h1>Understanding State in React</h1>
                             
@@ -50,13 +49,15 @@ function App() {
                             
                             {/* Component without useState */}
                             <WithoutState />
+                            
                            
                             
                             
                         </div>
+                        
                     } />
                 </Routes>
-                
+                <Footer2 /> 
             </div>
         </Router>
     );
